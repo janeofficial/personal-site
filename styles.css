@@ -11,7 +11,9 @@ body {
 .main-header {
     border-bottom: 1px solid black;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-flow: column nowrap;
 }
 .projects-container {
     display: flex;
@@ -19,32 +21,62 @@ body {
     justify-content: center;
 }
 .project-header {
-    background: #7c7c99;
+    background: #323257;
     padding: 5px;
     border-bottom: 1px solid black;
 }
+
+.project-header.luck {
+    background: rgb(104, 87, 95);
+}
+
+.project-header.strange {
+    background: rgb(201, 176, 157);
+}
+
+.project-header.official {
+    background: rgb(114, 105, 81);
+}
+
+
 a {
     color: white;
     text-decoration: none;
     /* transition: color 200ms ease; */
 }
 a:hover {
-    color: blue;
+    color: rgb(255, 255, 255);
+}
+
+a.header-link {
+    color: black;
+}
+a.header-link:hover {
+    color: #6d4856;
 }
 .project {
     max-width: 400px;
     display: flex;
     flex-flow: column;
-    margin: 0 auto 15px auto;
+    margin: 0 auto 30px auto;
     border: 1px solid black;
 }
+
 .image {
     width: 100%;
     height: auto;
 }
 
+.image-container {
+    display: flex;
+    flex-flow: column;
+    padding: 2vh;
+}
+
 .full-image {
+    width: auto;
     max-width: 90vw;
-    height: auto;
-    margin: 0 auto;
+    height: 90vh;
+    object-fit: contain;
+    margin: 0 auto 10px auto;
 }
