@@ -42,3 +42,9 @@ a:hover {
     width: 100%;
     height: auto;
 }
+
+.full-image {
+    max-width: 90vw;
+    height: auto;
+    margin: 0 auto;
+}
