@@ -38,6 +38,10 @@ body {
     background: rgb(114, 105, 81);
 }
 
+.project-header.super {
+    background: rgb(252, 0, 0);
+}
+
 
 a {
     color: white;
