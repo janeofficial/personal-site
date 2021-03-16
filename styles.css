@@ -84,3 +84,18 @@ a.header-link:hover {
     object-fit: contain;
     margin: 0 auto 10px auto;
 }
+
+.large-video {
+    max-width: 90vw;
+    margin: 20px auto 20px auto;
+}
+
+.float-top {
+    position: relative;
+    top: 50px;
+}
+
+.float-bottom {
+    position: relative;
+    bottom: 50px;
+}
