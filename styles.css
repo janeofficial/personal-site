@@ -42,6 +42,10 @@ body {
     background: rgb(252, 0, 0);
 }
 
+project-header.lean {
+    background: rgb(148, 188, 212);
+}
+
 
 a {
     color: white;
