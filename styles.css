@@ -2,7 +2,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .container {
-    background-image: url("images/map.jpg");
+    /* background: gray; */
+    background-image: url("images/anothergrey.jpg");
     background-size: cover;
     /* background: #c7c7c7; */
     min-height: 100vh;
@@ -15,7 +16,7 @@ body {
     font-size: 24px;
 }
 .main-header {
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     padding: 20px;
     margin-bottom: 30px;
     display: flex;
@@ -28,18 +29,18 @@ body {
     justify-content: space-between;
     width: 6rem;
 }
-.projects-container {
+/* .projects-container {
     display: flex;
     flex-flow: column;
     justify-content: center;
-}
-.project-header {
+} */
+/* .project-header {
     background: #323257;
     padding: 5px;
     border-bottom: 1px solid black;
-}
+} */
 
-.project-header.luck {
+/* .project-header.luck {
     background: rgb(104, 87, 95);
 }
 
@@ -57,7 +58,7 @@ body {
 
 .project-header.lean {
     background: rgb(132, 161, 179);
-}
+} */
 
 
 a {
@@ -70,18 +71,25 @@ a:hover {
 }
 
 a.header-link {
-    color: black;
+    color: rgb(10, 7, 179);
     text-decoration: underline;
 }
 a.header-link:hover {
-    color: #6d4856;
+    color: #312a3b;
+}
+
+.work-list {
+    padding: 12rem 0 0 10rem;
+    list-style: none;
+}
+.work-list li:before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -20px;
+    color: white;
 }
 .project {
-    max-width: 400px;
-    display: flex;
-    flex-flow: column;
     margin: 0 auto 30px auto;
-    border: 1px solid black;
 }
 
 .image {
