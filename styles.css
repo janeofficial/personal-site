@@ -7,6 +7,10 @@ body {
     /* background: #c7c7c7; */
     min-height: 100vh;
 }
+.othercontainer {
+    background:lightgray;
+    min-height: 100vh;
+}
 .name {
     font-size: 24px;
 }
