@@ -19,7 +19,14 @@ body {
     padding: 20px;
     margin-bottom: 30px;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-link-container {
+    display: flex;
+    justify-content: space-between;
+    width: 6rem;
 }
 .projects-container {
     display: flex;
@@ -64,6 +71,7 @@ a:hover {
 
 a.header-link {
     color: black;
+    text-decoration: underline;
 }
 a.header-link:hover {
     color: #6d4856;
