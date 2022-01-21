@@ -13,10 +13,6 @@ body {
     overflow: auto;
 }
 
-.othercontainer {
-    background:lightgray;
-    min-height: 100vh;
-}
 .name {
     font-size: 24px;
     letter-spacing: -1px;
