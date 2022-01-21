@@ -1,11 +1,18 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    display: flex;
 }
+
 .container {
     background-image: url("images/greyflag.jpg");
     background-size: cover;
-    min-height: 100vh;
+    height: 100vh;
+    width: 100%;
+    background-color: lightgrey;
+    overflow: auto;
 }
+
 .othercontainer {
     background:lightgray;
     min-height: 100vh;
@@ -50,8 +57,9 @@ a.header-link:hover {
 }
 .work-list li:before {
     content: '\2014';
-    position: absolute;
-    margin-left: -20px;
+    position: relative;
+    left: -20px;
+    top: 17px;
     color: white;
 }
 
