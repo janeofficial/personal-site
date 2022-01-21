@@ -2,12 +2,12 @@ body {
     font-family: 'Courier New', Courier, monospace;
     overflow: hidden;
     display: flex;
+    background-color: lightgrey;
 }
 
 .container {
     height: 100vh;
     width: 100%;
-    background-color: lightgrey;
     overflow: auto;
 }
 
