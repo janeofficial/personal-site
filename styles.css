@@ -2,10 +2,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .container {
-    /* background: gray; */
     background-image: url("images/greyflag.jpg");
     background-size: cover;
-    /* background: #c7c7c7; */
     min-height: 100vh;
 }
 .othercontainer {
@@ -16,7 +14,6 @@ body {
     font-size: 24px;
 }
 .main-header {
-    /* border-bottom: 1px solid black; */
     padding: 20px;
     margin-bottom: 30px;
     display: flex;
@@ -29,42 +26,10 @@ body {
     justify-content: space-between;
     width: 6rem;
 }
-/* .projects-container {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-} */
-/* .project-header {
-    background: #323257;
-    padding: 5px;
-    border-bottom: 1px solid black;
-} */
-
-/* .project-header.luck {
-    background: rgb(104, 87, 95);
-}
-
-.project-header.strange {
-    background: rgb(201, 176, 157);
-}
-
-.project-header.official {
-    background: rgb(114, 105, 81);
-}
-
-.project-header.super {
-    background: rgb(252, 0, 0);
-}
-
-.project-header.lean {
-    background: rgb(132, 161, 179);
-} */
-
 
 a {
     color: white;
     text-decoration: none;
-    /* transition: color 200ms ease; */
 }
 a:hover {
     color: rgb(255, 255, 255);
@@ -88,6 +53,11 @@ a.header-link:hover {
     margin-left: -20px;
     color: white;
 }
+
+.list-title {
+
+}
+
 .project {
     margin: 0 auto 30px auto;
 }
