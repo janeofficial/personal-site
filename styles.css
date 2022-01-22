@@ -28,7 +28,8 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-.header-link-container {
+
+.secondary-header-links {
     display: flex;
     justify-content: space-between;
     width: 6rem;
@@ -48,6 +49,12 @@ a.header-link {
 }
 a.header-link:hover {
     color: #312a3b;
+}
+
+.header-link.top-nav {
+    position: sticky;
+    top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .work-list {
