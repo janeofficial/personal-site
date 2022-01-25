@@ -1,5 +1,5 @@
 body {
-    font-family: 'AA Actual Mono';
+    font-family: 'Courier New', Courier, monospace;
     overflow: hidden;
     display: flex;
     background-color: lightgrey;
