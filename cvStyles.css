@@ -1,8 +1,9 @@
 body {
-  font-family: 'Spectral', serif;
+  font-family: 'Andale Mono';
+  font-size: 14px;
 }
 .container {
-  background: #c7c7c7;
+  background: lightgray;
   min-height: 100vh;
 }
 .name {
@@ -44,12 +45,12 @@ body {
 
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
   /* transition: color 200ms ease; */
 }
 a:hover {
-  color: rgb(255, 255, 255);
+  color: blue;
 }
 
 a.header-link {
