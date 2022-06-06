@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial';
+    font-family: "Helvetica Neue",Arial,sans-serif;
     overflow: hidden;
     display: flex;
     background-color: white;
@@ -22,7 +22,7 @@ body {
 }
 .main-header {
     padding: 20px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -40,13 +40,13 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: rgb(10, 7, 179);;
+    color: #2a3fcd;
 }
 
 a.header-link {
-    color: rgb(10, 7, 179);
-    border-bottom: 1.85px solid;
+    color: #2a3fcd;
 }
+
 a.header-link:hover {
     color: #312a3b;
 }
@@ -60,9 +60,10 @@ a.header-link:hover {
 .work-list {
     padding: 12rem 0 0 10rem;
     list-style: none;
+    font-style: italic;
 }
 .work-list li:before {
-    content: '\2014';
+    /* content: '\2014'; */
     position: relative;
     left: -20px;
     top: 17px;
@@ -72,7 +73,7 @@ a.header-link:hover {
 .list-title {
     font-size: 24px;
     margin-bottom: 2rem;
-    color: rgb(10, 7, 179);
+    color: #2a3fcd;
 }
 
 .project {
