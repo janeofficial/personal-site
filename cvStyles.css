@@ -3,7 +3,6 @@ body {
   font-size: 14px;
 }
 .container {
-  /* background: lightgray; */
   min-height: 100vh;
 }
 .name {
@@ -21,28 +20,6 @@ body {
   flex-flow: column;
   justify-content: center;
 }
-.project-header {
-  background: #323257;
-  padding: 5px;
-  border-bottom: 1px solid black;
-}
-
-.project-header.luck {
-  background: rgb(104, 87, 95);
-}
-
-.project-header.strange {
-  background: rgb(201, 176, 157);
-}
-
-.project-header.official {
-  background: rgb(114, 105, 81);
-}
-
-.project-header.super {
-  background: rgb(252, 0, 0);
-}
-
 
 a {
   color: black;
