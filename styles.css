@@ -12,7 +12,6 @@ body {
 }
 
 .home.container {
-    /* background-image: url("images/greyflag.jpg"); */
     background-size: cover;
 }
 
@@ -113,3 +112,17 @@ a.header-link:hover {
     position: relative;
     bottom: 50px;
 }
+
+.work-description {
+    margin: 30px;
+    font-weight: 350;
+    font-style: italic;
+}
+
+.piece-title {
+    margin: 30px;
+    font-style: italic;
+    word-wrap: wrap;
+    width: 300px;
+}
+
