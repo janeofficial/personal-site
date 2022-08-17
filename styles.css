@@ -21,7 +21,6 @@ body {
 }
 .main-header {
     padding: 20px;
-    /* margin-bottom: 30px; */
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -60,6 +59,7 @@ a.header-link:hover {
     padding: 12rem 0 0 10rem;
     list-style: none;
     font-style: italic;
+    font-size: 14px;
 }
 .work-list li:before {
     /* content: '\2014'; */
@@ -70,9 +70,9 @@ a.header-link:hover {
 }
 
 .list-title {
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 2rem;
-    color: #2a3fcd;
+    color: black;
 }
 
 .project {
