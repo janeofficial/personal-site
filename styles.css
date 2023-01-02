@@ -92,16 +92,17 @@ a.header-link:hover {
 }
 
 .full-image {
-    width: auto;
-    max-width: 90vw;
-    height: 90vh;
+    width: 100%;
+    max-width: 1800px;
+    max-height: 1000px;
     object-fit: contain;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 30px auto;
 }
 
 .large-video {
-    max-width: 90vw;
-    margin: 20px auto 20px auto;
+    max-width: 1800px;
+    max-height: 1000px;
+    margin: 0 auto 30px auto;
 }
 
 .float-top {
@@ -115,9 +116,14 @@ a.header-link:hover {
 }
 
 .work-description {
-    margin: 30px;
+    max-width: 60ch;
     font-weight: 350;
     font-style: italic;
+}
+
+.center-text{
+    margin: 0 auto 60px auto;
+    text-align: center;
 }
 
 .piece-title {
