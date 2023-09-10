@@ -62,7 +62,6 @@ a.header-link:hover {
     padding: 12rem 0 0 10rem;
     list-style: none;
     font-style: italic;
-    font-size: 14px;
 }
 .work-list li:before {
     /* content: '\2014'; */
@@ -73,7 +72,6 @@ a.header-link:hover {
 }
 
 .list-title {
-    font-size: 22px;
     margin-bottom: 2rem;
     color: black;
 }
@@ -135,3 +133,10 @@ a.header-link:hover {
     width: 300px;
 }
 
+.font-small {
+    font-size: 14px;
+}
+
+.font-large {
+    font-size: 22px;
+}
