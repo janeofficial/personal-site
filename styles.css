@@ -18,7 +18,7 @@ body {
 .name {
     font-size: 24px;
     letter-spacing: -1px;
-    color: #2a3fcd;
+    color: #ff00d9;
 }
 .main-header {
     padding: 20px;
@@ -40,16 +40,16 @@ a {
 }
 
 a:hover {
-    color: #2a3fcd;
+    color: #ff00d9;
     cursor: pointer;
 }
 
 a.header-link {
-    color: #2a3fcd;
+    color: #ff00d9;
 }
 
 a.header-link:hover {
-    color: #312a3b;
+    color: #3b2a37;
 }
 
 .header-link.top-nav {
