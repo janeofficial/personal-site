@@ -1,57 +1,57 @@
 const shows = [
     {
         year: 2023,
-        title: "(Forthcoming) New Relic",
+        title: "(Forthcoming) Virtu,",
         location: "Romance Info, Pittsburg, PA"
     },
     {
         year: 2023,
-        title: "Scrap Yard Screenings",
+        title: "Scrap Yard Screenings,",
         location: "Sara's, New York, NY"
     },
     {
         year: 2023,
-        title: "American Girl Diagnostics",
+        title: "American Girl Diagnostics,",
         location: "Mery Gates, Brooklyn NY"
     },
     {
         year: 2023,
-        title: "BYOUSB",
+        title: "BYOUSB,",
         location: "Rhizome & Do Not Research, Queens, NY"
     },
     {
         year: 2022,
-        title: "** Bishop71936",
+        title: "** Bishop71936,",
         location: "A+E Lab, Historic Dockyard Chatham, UK"
     },
     {
         year: 2022,
-        title: "Steal My Sunshine Invitational",
+        title: "Steal My Sunshine Invitational,",
         location: "Mery Gates, Brooklyn, NY"
     },
     {
         year: 2022,
-        title: "The Patriot",
+        title: "The Patriot,",
         location: "O'Flaherty's, New York, NY"
     },
     {
         year: 2021,
-        title: "Sundae",
+        title: "Sundae,",
         location: "Mcg21xoxo, Matsudo, Japan"
     },
     {
         year: 2021,
-        title: "Do Not Research, Fall Issue",
+        title: "Do Not Research, Fall Issue,",
         location: "online"
     },
     {
         year: 2020,
-        title: "Behind the Times",
+        title: "Behind the Times,",
         location: "Alyssa Davis Gallery with Underground Flower, online"
     },
     {
         year: 2020,
-        title: "** Office Luck & Bounty",
+        title: "** Office Luck & Bounty,",
         solo: true,
         location: "Offsite, Santa Monica, CA"
     },
@@ -67,60 +67,60 @@ const shows = [
     },
     {
         year: 2019,
-        title: "Jazz",
+        title: "Jazz,",
         location: "Club Cringe, NY"
     },
     {
         year: 2019,
-        title: "Staying Near You",
+        title: "Staying Near You,",
         location: "Lubov, New York, NY"
     },
 ];
 const resWorkshops = [
     {
         year: 2022,
-        title: "Wave Field Synthesis Residency",
+        title: "Wave Field Synthesis Residency,",
         location: "A+E Lab & Game of Life Foundation, Historic Dockyard, Chatham, UK"
     },
     {
         year: 2019,
-        title: "Crowley House Residency",
+        title: "Crowley House Residency,",
         location: "Copake, NY"
     },
 ];
 const press = [
     {
         year: 2023,
-        title: "Three Short Blocks",
+        title: "Three Short Blocks,",
         author: "Kay, Hannah Sage",
         location: "Screen Slate, September 1, 2023"
     },
     {
         year: 2023,
-        title: "American Girl Diagnostics",
+        title: "American Girl Diagnostics,",
         author: "Murray, Julia",
         location: "Office Magazine, August 6, 2023"
     },
     {
         year: 2022,
-        title: "DNR 2021-2022",
+        title: "DNR 2021-2022,",
         location: "Rhizome Book Launch, New Museum, NY"
     },
     {
         year: 2022,
-        title: "Multisystem Organ Failure",
+        title: "Multisystem Organ Failure,",
         location: "Animal Blood Magazine, Issue 3"
     },
     {
         year: 2020,
         author: "Tzvetnik.Online",
-        title: "Solo Show: Chapter 5 / Behind the Times",
+        title: "Solo Show: Chapter 5 / Behind the Times,",
         location: "Tzvetnik, August 1, 2020"
     },
     {
         year: 2019,
         author: "Hahn, Rachel",
-        title: "​Café Forgot's New Pop-Up Brings Artful Fashion Into a Chinatown Gallery",
+        title: "​Café Forgot's New Pop-Up Brings Artful Fashion Into a Chinatown Gallery,",
         location: "Vogue, August 2, 2019"
     }
 ];
