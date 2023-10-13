@@ -1,7 +1,12 @@
 const shows = [
     {
         year: 2023,
-        title: "(Forthcoming) Virtu,",
+        title: "(Forthcoming) Homecoming,",
+        location: "Public Works Administration, New York, NY"
+    },
+    {
+        year: 2023,
+        title: "Objects of Virtu,",
         location: "Romance Info, Pittsburg, PA"
     },
     {
