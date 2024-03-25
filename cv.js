@@ -1,7 +1,7 @@
 const shows = [
     {
         year: 2023,
-        title: "(Forthcoming) Homecoming,",
+        title: "Homecoming,",
         location: "Public Works Administration, New York, NY"
     },
     {
@@ -94,6 +94,12 @@ const resWorkshops = [
     },
 ];
 const press = [
+    {
+        year: 2023,
+        title: "Objects of Virtu,",
+        author: "Contemporary Art Library",
+        location: "Online"
+    },
     {
         year: 2023,
         title: "Three Short Blocks,",
