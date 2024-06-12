@@ -97,7 +97,7 @@ const press = [
     {
         year: 2023,
         title: "Objects of Virtu,",
-        author: "Contemporary Art Library",
+        author: "Contemporary Art Library,",
         location: "Online"
     },
     {
@@ -105,6 +105,12 @@ const press = [
         title: "Three Short Blocks,",
         author: "Kay, Hannah Sage",
         location: "Screen Slate, September 1, 2023"
+    },
+    {
+        year: 2023,
+        title: "A three-day art show in NYC: Public Works Administration Gallery's “Homecoming”,",
+        author: "Sinelnikova, Julia",
+        location: "Whitehot Magazine, November 22, 2023"
     },
     {
         year: 2023,
