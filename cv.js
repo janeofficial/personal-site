@@ -1,5 +1,10 @@
 const shows = [
     {
+        year: 2024,
+        title: "Escape Room,",
+        location: "Wildflower, Baltimore, MD"
+    },
+    {
         year: 2023,
         title: "Homecoming,",
         location: "Public Works Administration, New York, NY"
@@ -94,6 +99,18 @@ const resWorkshops = [
     },
 ];
 const press = [
+    {
+        year: 2024,
+        title: "Witch & Bowerbird,",
+        author: "Theaphora Biz,",
+        location: "Online"
+    },
+    {
+        year: 2024,
+        title: "Romance x Mossflower Press,",
+        author: "Romance Gallery,",
+        location: "Pittsburgh Art Book Fair"
+    },
     {
         year: 2023,
         title: "Objects of Virtu,",
